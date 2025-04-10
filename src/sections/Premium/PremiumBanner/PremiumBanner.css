@@ -1,0 +1,60 @@
+.premium-banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position-x: center; */
+
+}
+
+.inverse-image {
+    /* background-position-y: 4.5%; */
+    background-position-x: center;
+    background-size: 150%;
+    background-position: center;
+    /* transform: scaleX(-1); */
+}
+
+.non-inverse-image {
+    /* background-position-x: center; */
+    /* background-position-y: 15%; */
+}
+
+.premium-linear-gradient {
+    background: linear-gradient(270deg, #000000 0%, rgba(204, 207, 209, 0.2) 26.9%, rgba(125, 126, 127, 0.3) 67.4%, #000000 100%);
+    /* border: 1px solid red; */
+}
+
+.vip-linear-gradient {
+    background: linear-gradient(270deg, #000000 0%, rgba(0, 0, 0, 0) 36.9%, rgba(0, 0, 0, 0) 67.4%, #000000 100%);
+    /* border: 1px solid red; */
+}
+
+.premium-banner-btn-linear-gradient {
+    width: 0%;
+    background: linear-gradient(89.03deg,
+            #ed1b24 3.44%,
+            #ed1b24 30.52%,
+            #f868e7 99.16%);
+    transition: width 0.3s ease-in-out;
+}
+
+.premium-banner-btn:hover .premium-banner-btn-linear-gradient{
+    width: 100%;
+}
+
+@media (max-width: 1285px) {
+    .inverse-image {
+        background-size: 170%;
+    }
+}
+
+@media (max-width: 1127px) {
+    .inverse-image {
+        background-size: 190%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .inverse-image {
+        background-size: cover;
+    }
+}
