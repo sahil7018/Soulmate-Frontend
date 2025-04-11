@@ -1,10 +1,5 @@
 import React, { useEffect } from "react";
 import "./PeopleTrust.css";
-import VerifiedIcon from "@mui/icons-material/Verified";
-import BlockIcon from "@mui/icons-material/Block";
-import Verified from "src/assets/Verified.svg";
-import Block from "src/assets/block.svg";
-import SOS from "src/assets/SOS.svg";
 
 function PeopleTrust({ peopleTrustData }) {
   const heading = peopleTrustData && peopleTrustData["people-trust-heading"];
@@ -15,10 +10,6 @@ function PeopleTrust({ peopleTrustData }) {
     peopleTrustData["people-trust-icon-text-container-wrapper"];
 
   const bgImage = peopleTrustData && peopleTrustData["background-image"];
-
-  console.log("===============");
-  console.log("BG image : ", bgImage);
-  console.log("================");
 
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -36,8 +27,9 @@ function PeopleTrust({ peopleTrustData }) {
   });
   return (
     <div
-      className={`people-trust tw-bg-[url('${bgImage[0]?.additional_info?.link}')]`}
+      className={`people-trust`}
       id="peopleTrust"
+      style={{ backgroundImage: `url(${bgImage[0]?.additional_info?.link})` }}
     >
       <div className="people-trust-linear-gradient">
         <div className=" people-trust-outer-container">

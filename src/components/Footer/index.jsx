@@ -7,29 +7,17 @@ import { NavLink, useLocation } from "react-router";
 
 function Footer({ data }) {
   const [languageModal, setLanguageModal] = useState(false);
-  const FooterLegalOpions = [
-    {
-      id: 1,
-      name: "Security",
-      onClick: () => {},
-    },
-  ];
   const path = useLocation();
 
-  console.log("===============");
-  console.log("data in Footer: ", data);
-  console.log("================");
+  const languages = data?.languages;
+  const headerLogo = data?.heroSection["header-logo"];
 
   return (
     <div className="footer sw800:tw-h-[100%] tw-min-h-[564px] tw-h-[100%] tw-py-24 tw-flex sw800:tw-px-[75px]">
       <div className="sw1154:tw-w-[90.7%] sw1024:tw-w-[95.7%] tw-w-[85.7%] tw-h-[100%] tw-min-h-[442px] tw-my-auto tw-ms-auto tw-me-auto tw-flex tw-flex-col sw800:tw-justify-between sw1024:tw-gap-0 tw-gap-12">
         <div className="tw-h-[100%] sw1024:tw-grid sw1024:tw-grid-cols-2 sw800:tw-justify-between tw-justify-center tw-flex-wrap sw800:tw-gap-12 tw-gap-8">
           <div className="tw-flex tw-flex-col tw-justify-between tw-h-full sw1024:tw-items-start tw-items-center sw1024:tw-gap-0 tw-gap-4 sw1024:tw-mb-0 tw-mb-14">
-            <img
-              src="https://res.cloudinary.com/dpunh7hfo/image/upload/v1741076354/SoulmateX/dfgqwbrk4uhydfyhgaal.svg"
-              alt=""
-              className="tw-w-60"
-            />
+            <img src={data?.logo} alt="" className="tw-w-60" />
             <div className="tw-flex tw-flex-col tw-gap-16 sw1024:tw-items-start tw-items-center">
               {path.pathname !== "/" && (
                 <div className="tw-flex tw-flex-wrap tw-justify-center tw-gap-3">
@@ -185,6 +173,8 @@ function Footer({ data }) {
       <LanguageModal
         openLanguageModal={languageModal}
         setLanguageModal={setLanguageModal}
+        languages={languages}
+        headerLogo={headerLogo}
       />
     </div>
   );

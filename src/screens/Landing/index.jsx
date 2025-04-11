@@ -17,9 +17,6 @@ function Main() {
     queryKey: ["home"],
     queryFn: fetchHomePageData,
   });
-  console.log("===============");
-  console.log("homeData in Landing: ", homeData);
-  console.log("================");
 
   if (isPending) {
     return (
