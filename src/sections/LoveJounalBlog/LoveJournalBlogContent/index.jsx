@@ -8,12 +8,12 @@ function LoveJournalBlogContent() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod
         </h1> */}
-        <h1 className="sw1024:tw-text-[40px]/[64px] sw768:tw-text-[35px]/[54.31px] sw552:tw-text-[32px]/[48.31px] tw-text-[25px]/[35px] tw-font-bold tw-text-[#ED1B24] tw-capitalize tw-font-playfairDisplay">
+        <h1 className="sw1024:tw-text-[35px]/[64px] sw768:tw-text-[35px]/[54.31px] sw552:tw-text-[32px]/[48.31px] tw-text-[25px]/[35px] tw-font-bold tw-text-[#ED1B24] tw-capitalize tw-font-playfairDisplay">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod
         </h1>
         <div className="tw-flex tw-flex-col tw-gap-10">
-          <span className="sw1024:tw-text-[28px] sw768:tw-text-[24px] sw552:tw-text-[22px] tw-text-[20px] tw-font-normal tw-text-[#000000] tw-capitalize tw-font-roboto">
+          <span className="sw1024:tw-text-[24px] sw768:tw-text-[24px] sw552:tw-text-[22px] tw-text-[20px] tw-font-normal tw-text-[#000000] tw-capitalize tw-font-roboto">
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
             veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
             ea commodo consequat. Duis aute irure dolor in reprehenderit in
@@ -21,7 +21,7 @@ function LoveJournalBlogContent() {
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
             officia deserunt mollit anim id est laborum.
           </span>
-          <span className="sw1024:tw-text-[28px] sw768:tw-text-[24px] sw552:tw-text-[22px] tw-text-[20px] tw-font-normal tw-text-[#000000] tw-capitalize tw-font-roboto">
+          <span className="sw1024:tw-text-[24px] sw768:tw-text-[24px] sw552:tw-text-[22px] tw-text-[20px] tw-font-normal tw-text-[#000000] tw-capitalize tw-font-roboto">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -30,7 +30,7 @@ function LoveJournalBlogContent() {
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.
           </span>
-          <span className="sw1024:tw-text-[28px] sw768:tw-text-[24px] sw552:tw-text-[22px] tw-text-[20px] tw-font-normal tw-text-[#000000] tw-capitalize tw-font-roboto">
+          <span className="sw1024:tw-text-[24px] sw768:tw-text-[24px] sw552:tw-text-[22px] tw-text-[20px] tw-font-normal tw-text-[#000000] tw-capitalize tw-font-roboto">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut

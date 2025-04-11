@@ -41,6 +41,10 @@ function Header({ data }) {
     };
   }, []);
 
+  console.log("===============");
+  console.log("path pathname: ", path.pathname);
+  console.log("================");
+
   return (
     <div
       className={`header header-bg ${coloredBg && "header-bg"} ${
@@ -82,7 +86,7 @@ function Header({ data }) {
                     to={
                       item?.HomePageMenu_data !== "Products"
                         ? item.additional_info?.href
-                        : "#"
+                        : "/"
                     }
                     className={`link-tab ${
                       path.pathname.startsWith("/loveJournal/") &&

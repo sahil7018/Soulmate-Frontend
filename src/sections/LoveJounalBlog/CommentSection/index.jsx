@@ -143,7 +143,7 @@ function CommentSection() {
           )}
         </div>
 
-        <div className="tw-flex tw-flex-wrap tw-justify-between tw-items-center">
+        <div className="tw-flex tw-flex-wrap tw-gap-4 tw-justify-between tw-items-center">
           <div className="tw-flex tw-items-center tw-gap-4">
             <button
               type="button"
@@ -195,12 +195,12 @@ function CommentSection() {
         </div>
       </div>
       <div className="tw-flex tw-flex-col tw-gap-12">
-        <div className="tw-flex tw-gap-4 tw-items-center">
-          <h1 className="tw-text-[32px] tw-font-bold tw-font-roboto tw-text-black tw-capitalize tw-mb-0">
+        <div className="tw-flex tw-flex-wrap tw-gap-4 tw-items-center">
+          <h1 className="tw-text-[22px] sw364:tw-text-[32px] tw-font-bold tw-font-roboto tw-text-black tw-capitalize tw-mb-0">
             Comments
           </h1>
           <div>
-            <button className="tw-px-3 tw-py-1 tw-bg-[#ED1B24] tw-text-[10px]/[100%] tw-font-bold tw-font-roboto tw-rounded-lg tw-text-white">
+            <button className="tw-px-3 tw-py-1 tw-bg-[#ED1B24] tw-text-[18px]/[100%] sw364:tw-text-[22px] tw-font-bold tw-font-roboto tw-rounded-lg tw-text-white">
               22
             </button>
           </div>
